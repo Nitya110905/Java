@@ -12,8 +12,8 @@ import javax.mail.internet.MimeMessage;
 
 public class Email_otp {
 	public void sendMail(String emailid, int num) {
-		final String username = "e6564064@gmail.com";
-		final String password = "kjirppnfhdkebbmz";
+		final String username = "Etp-EmailId";
+		final String password = "PasswordKey";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", "true");
