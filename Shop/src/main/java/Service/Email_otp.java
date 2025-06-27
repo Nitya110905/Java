@@ -12,7 +12,7 @@ import javax.mail.internet.MimeMessage;
 
 public class Email_otp {
 	public void sendMail(String emailid, int num) {
-		final String username = "Etp-EmailId";
+		final String username = "Otp-EmailId";
 		final String password = "PasswordKey";
 
 		Properties props = new Properties();
